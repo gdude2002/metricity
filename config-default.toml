@@ -20,31 +20,24 @@ token = { env = "BOT_TOKEN" }
 # The guild ID that Metricity should be reporting about
 guild_id = 267624335836053506
 
-# This is the role ID of the role that should identify staff members, for Python Discord this is the helper ID
-staff_role_id = 267630620367257601
+# This is the role ID of the role that should identify staff members, for Fabricord this is the staff ID
+staff_role_id = 765938438989152266
 
 # Channels that should be flagged as staff only by category ID
 staff_categories = [
-    468520609152892958,
-    732695657587933304,
-    364918151625965579,
-    551815583788695562,
-    721459859500957726,
-    430484673248886784,
-    749736277464842262,
-    749735995460550726
+    705216231010992178,
 ]
 
 # Don't report messages for the following categories
 ignore_categories = [
-    714494672835444826
+    764817953463861288
 ]
 
 # Respond to opt-in/opt-out commands in the following channel
-bot_commands_channel = 267659945086812160
+bot_commands_channel = 523633816078647296
 
 # Role ID that is used as a role gate on the server
-role_gate_id = 352427296948486144
+role_gate_id = 0  # We don't currently have one
 
 [database]
 # Postgres!

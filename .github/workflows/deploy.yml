@@ -19,7 +19,7 @@ jobs:
       - name: Publish Docker image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: python-discord/metricity/metricity:latest
+          name: gdude2002/metricity/metricity:latest
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
